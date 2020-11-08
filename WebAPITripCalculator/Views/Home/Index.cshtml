@@ -1,0 +1,86 @@
+﻿
+
+<div ng-app="myApp">
+    <div ng-controller="StudentCtrl">
+        <form novalidate name="frmStudent" id="frmStudent" class="form-horizontal row-border">
+            <br />
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="input17">{{PayName}}</label>
+                    <div class="col-md-7"> <input type="text" placeholder="Expense Amount" id="idAmount" class="form-control" name="expense" ng-model="Amount" /> </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <input type="hidden" id="id" class="form-control" name="id" ng-model="ID" />
+                    </div>
+                    <div class="col-md-">
+                        <span id="save" class="btn btn-success margin-right-btn" ng-click="Save()">
+                            <i class="icon-save"></i>Enter
+                        </span>
+                        <span id="clear" class="btn btn-primary margin-right-btn"
+                              ng-click="Clear()">
+                            Clear
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+
+
+        <div class="row">
+            <div class="col-md-5">
+                <h2>Trip Expense Tracking</h2>
+                <table class="table table-hover general-table">
+                    <thead class="grid-top-panel">
+                        <tr>
+                            <th style="display:none">StudentID</th>
+                            <th>Name</th>
+                            <th>Total Pay</th>
+                            <th>Balance</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="dataModel in students">
+                            <td style="display:none">{{dataModel.ID}}</td>
+                            <td> {{dataModel.Name}}</td>
+                            <td> {{dataModel.TTpay}}</td>
+                            <td> {{dataModel.Balance}}</td>
+                            <td style="text-align:right; color:white">
+                                <span>
+                                    <span id="edit" class="btn btn-primary margin-right-btn"
+                                          ng-click="FillTable(dataModel)">
+                                        Enter Expense
+                                    </span>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </div>
+
+        </div>
+
+        <h3>Calculate final</h3>
+        <span>
+            <span id="edit" class="btn btn-primary margin-right-btn"
+                  ng-click="Final()">
+                Trip Calculator
+            </span>
+        </span>
+        <div class="row">
+            <div class="col-md-5">
+                <h2>Trip final Calculation</h2>
+                <div>
+                    <ul class="example-animate-container">
+                        <li class="animate-repeat" ng-repeat="f in FinalTrip">
+                           {{f}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

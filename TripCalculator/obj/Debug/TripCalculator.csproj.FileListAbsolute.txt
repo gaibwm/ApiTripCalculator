@@ -1,0 +1,11 @@
+C:\Users\gaibw\source\repos\TripCalculator\bin\Debug\TripCalculator.dll
+C:\Users\gaibw\source\repos\TripCalculator\bin\Debug\TripCalculator.pdb
+C:\Users\gaibw\source\repos\TripCalculator\obj\Debug\TripCalculator.csproj.CoreCompileInputs.cache
+C:\Users\gaibw\source\repos\TripCalculator\obj\Debug\TripCalculator.dll
+C:\Users\gaibw\source\repos\TripCalculator\obj\Debug\TripCalculator.pdb
+C:\Users\gaibw\source\repos\ApiTripCalculator\TripCalculator\bin\Debug\TripCalculator.dll
+C:\Users\gaibw\source\repos\ApiTripCalculator\TripCalculator\bin\Debug\TripCalculator.pdb
+C:\Users\gaibw\source\repos\ApiTripCalculator\TripCalculator\obj\Debug\TripCalculator.csprojAssemblyReference.cache
+C:\Users\gaibw\source\repos\ApiTripCalculator\TripCalculator\obj\Debug\TripCalculator.csproj.CoreCompileInputs.cache
+C:\Users\gaibw\source\repos\ApiTripCalculator\TripCalculator\obj\Debug\TripCalculator.dll
+C:\Users\gaibw\source\repos\ApiTripCalculator\TripCalculator\obj\Debug\TripCalculator.pdb
